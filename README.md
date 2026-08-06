@@ -1,5 +1,15 @@
 # Hackpad
 
+Kurze Beschreibung: Wie viele Tasten, welche Switches, welche Firmware usw.
 
+## CAD Model:
 
-![Uploading Screenshot 2026-08-06 134102.png…]()
+Ein, zwei Sätze zum Gehäuse – Schrauben, Heatset-Inserts, wie es gedruckt wird.
+
+![CAD Model](Assets/cad-model.png)
+
+**Made in Fusion360**
+
+## PCB:
+
+...
