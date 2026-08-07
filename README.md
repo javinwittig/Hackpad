@@ -1,6 +1,6 @@
 # Hackpad
 
-A 9-key macropad in a 3x3 layout, built around a Seeed Studio XIAO. Each switch has a 1N914 diode for proper N-key rollover, and the board is wired as a 3x3 matrix. 
+A 9-key macropad in a 3x3 layout, built around a Seeed Studio XIAO. Each switch has a diode and the board is wired as a 3x3 matrix. 
 
 ## PCB:
 
