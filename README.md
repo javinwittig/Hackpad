@@ -2,10 +2,10 @@
 
 A 9-key macropad in a 3x3 layout, built around a Seeed Studio XIAO. Each switch has a diode and the board is wired as a 3x3 matrix. 
 
-## PCB:
+
 
 <p align="center">
-  Schematic
+<h2 align="center">Schematic:</h2>
 </p>
 <p align="center">
   <img src="Assets/Schematic.png" alt="Hackpad schematic" width="500">
@@ -14,7 +14,7 @@ A 9-key macropad in a 3x3 layout, built around a Seeed Studio XIAO. Each switch 
 <br>
 
 <p align="center">
-  PCB
+<h2 align="center">PCB:</h2>
 </p>
 <p align="center">
   <img src="Assets/PCB.png" alt="Hackpad PCB" width="500">
@@ -24,7 +24,7 @@ A 9-key macropad in a 3x3 layout, built around a Seeed Studio XIAO. Each switch 
   <strong>Made in KiCad</strong>
 </p>
 
-## Case:
+<h2 align="center">Case:</h2>
 
 The case holds the PCB in a recess, with a cutout for the USB-C port on the XIAO and an opening for the 4-pin header.
 
@@ -36,7 +36,8 @@ The case holds the PCB in a recess, with a cutout for the USB-C port on the XIAO
   <strong>Made in Fusion360</strong>
 </p>
 
-## BOM:
+<h2 align="center">BOM:</h2>
+
 
 | Part | Quantity |
 | --- | --- |
