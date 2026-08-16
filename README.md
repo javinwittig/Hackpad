@@ -13,7 +13,7 @@ A custom 9-key macropad in a 3×3 layout, built around a Seeed Studio XIAO (SAMD
 - SSD1306 OLED display (128×32, I²C) for status text
 - Custom KiCad PCB
 - Custom enclosure modeled in Fusion 360, with cutouts for USB-C and the display header
-- Firmware based on [KMK](https://github.com/KMKfw/kmk_firmware) (CircuitPython), fully remappable keymap
+- Firmware based on [KMK](https://github.com/KMKfw/kmk_firmware) (CircuitPython)
 
 ## Repository structure
 
@@ -33,7 +33,7 @@ A custom 9-key macropad in a 3×3 layout, built around a Seeed Studio XIAO (SAMD
   <img src="Assets/Schematic.png" alt="Hackpad schematic" width="500">
 </p>
 
-The controller is a **Seeed Studio XIAO (SAMD21)**. The 9 switches form a 3×3 diode matrix and a 4-pin header standard 2.54 mm pitch, GND–VCC–SCL–SDA) breaks out I²C for the OLED display.
+The controller is a **Seeed Studio XIAO (SAMD21)**. The 9 switches form a 3×3 diode matrix and a 4-pin header standard 2.54 mm pitch, GND–VCC–SCL–SDA) 
 
 ### PCB
 
@@ -71,5 +71,4 @@ What it does:
 - Maps the 9 keys to the numpad keys `7 8 9 / 4 5 6 / 1 2 3`
 - Drives an SSD1306 OLED over I²C to show status text ("Hackpad" / "9 Tasten")
 
-> **Note:** the column/row pins, diode orientation, and the display's I²C address (`0x3C`) are marked as TODOs in the source and should be double-checked against the schematic before flashing.
 
