@@ -11,8 +11,8 @@ from kmk.extensions.display.ssd1306 import SSD1306
 keyboard = KMKKeyboard()
 
 
-keyboard.col_pins = (board.D0, board.D1, board.D2)   # TODO: verifizieren
-keyboard.row_pins = (board.D7, board.D8, board.D9)   # TODO: verifizieren
+keyboard.col_pins = (board.D0, board.D1, board.D2)   
+keyboard.row_pins = (board.D7, board.D8, board.D9)   
 keyboard.diode_orientation = DiodeOrientation.COL2ROW  # TODO: prüfen (Diodenrichtung im Schaltplan, Pfeil zeigt zur Spalte)
 
 
@@ -35,7 +35,7 @@ display_ext = Display(
     driver=SSD1306(
         sda=board.SDA,
         scl=board.SCL,
-        device_address=0x3C,  # TODO: ggf. 0x3D, je nach Display
+        device_address=0x3C,  
     ),
 )
 keyboard.extensions.append(display_ext)
