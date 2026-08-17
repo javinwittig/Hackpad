@@ -62,7 +62,7 @@ I modeled the case in Fusion 360. The case features a cutout for the XIAO's USB-
 | M3 screws | 4 |
 
 ## Firmware
-You can find the firmware in `Firmware/`or  and is written for [KMK](https://github.com/KMKfw/kmk_firmware), a CircuitPython-based keyboard firmware. `code.py` is the source; a compiled `.hex` build is included as well.
+You can find the firmware in `Firmware/`or `Production/Firmware.py` and it is written for [KMK](https://github.com/KMKfw/kmk_firmware), a CircuitPython-based keyboard firmware. `code.py` is the source; a compiled `.hex` build is included as well.
 
 What it does:
 - Defines a 3×3 key matrix on `board.D0–D2` (columns) and `board.D7–D9` (rows), `COL2ROW` diode orientation
